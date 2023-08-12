@@ -23,3 +23,4 @@ const modal = document.querySelector('.modal'),
     document.addEventListener('keydown',function(e){
        if(!modal.classList.contains('hidden') && e.key === "Escape")closeModal();
     }); 
+

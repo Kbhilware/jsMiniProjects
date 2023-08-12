@@ -76,3 +76,12 @@ btnNew.addEventListener('click',function(){
     diceEl.classList.remove('hidden');
     gameIn();
 })
+
+let obj={
+	fname :'karan',
+	lname:'bhilware',
+	combineName: function(){
+		return this.fname + this.lname;
+    }
+}
+console.log(obj.combineName());
